@@ -1,0 +1,10 @@
+.video__ifames {
+  position: absolute;
+  bottom: -100px;
+  left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  padding-top: 50px;
+  justify-content: center;
+}
