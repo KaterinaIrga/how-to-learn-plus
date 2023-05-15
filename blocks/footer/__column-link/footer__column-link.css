@@ -1,5 +1,15 @@
 .footer__column-link {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 16px;
+  text-decoration: none;
+  transition: opacity 2s linear;
+  margin-bottom: 10px;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(255,255,255);
+}
+.footer__column-link:hover {
+  opacity: 0.5;
+}
+.footer__column-link:last-child {
+  margin: 0;
 }
